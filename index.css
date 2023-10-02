@@ -130,7 +130,7 @@ body {
 }
 
 .logo-bg {
-  background-color: #ff0066;
+  background-color: #f06;
   width: 50%;
 }
 
@@ -242,5 +242,5 @@ body {
   height: 230px;
   margin: 10px;
   background-image: url('https://i.pinimg.com/originals/77/6e/4c/776e4ccc173f81ca98a20738c74a4241.jpg');
-  box-shadow: 0 0 4px #012,  inset 0 0 12px #dfe1e3;
+  box-shadow: 0 0 4px #012, inset 0 0 12px #dfe1e3;
 }
