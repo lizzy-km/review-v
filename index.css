@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  scrollbar-width: none;
+  transition: all 0.3s ease-in-out;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: rgb(213, 216, 218);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-img {
+  background-image: url('https://raw.githubusercontent.com/lizzy-km/cloudy-km/cd60ca7bd4fdbb3863f881d146b2650242f6fd57/stacked-peaks-haikei.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pt-3 {
+  padding-top: 1rem;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflowX-auto {
+  overflow-x: auto;
+}
+
+.overflowY-auto {
+  overflow-y: auto;
+}
+
+.maxH-screen {
+  max-height: 100vh;
+}
+
+.maxW-full {
+  max-width: 100%;
+}
+
+.hw-full {
+  height: 100%;
+  width: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.absolute-0 {
+  top: 0;
+  left: 0;
+}
+
+.logo-bg {
+  background-color: #f06;
+  width: 50%;
+}
+
+.logo {
+  width: auto;
+  background-color: #011;
+  color: rgb(210, 212, 214);
+  font-size: large;
+  font-weight: 600;
+}
+
+.nav {
+  height: auto;
+  padding: 1rem 1rem;
+  z-index: 9;
+}
+
+.bg-blur {
+  background-color: #00112238;
+  backdrop-filter: blur(6px);
+}
+
+.rounded-8 {
+  border-radius: 8px;
+}
+
+.roundedl-8 {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.h-max {
+  height: 1000px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.w-100 {
+  width: 90%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-75 {
+  width: 70%;
+}
+
+.h-530 {
+  height: 490px;
+}
+
+.hover-bg {
+  object-fit: cover;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hover-bg:hover {
+  background-image: url('https://raw.githubusercontent.com/lizzy-km/cloudy-km/bd1a3416b93de9558f80b58c7ccf23ea5ee01985/layered-waves-haikei.svg');
+}
+
+.bg-anime {
+  box-shadow: 0 0 4px #012, inset 0 0 12px #dfe1e3;
+  background-image: url('https://i.pinimg.com/originals/77/6e/4c/776e4ccc173f81ca98a20738c74a4241.jpg');
+}
+
+.minH-500 {
+  min-height: 470px;
+}
+
+.gap-4 {
+  column-gap: 1.5rem;
+}
+
+.maxH-500 {
+  max-height: 480px;
+}
+
+.m-3 {
+  margin: 1rem;
+}
+
+.absoluteB-0 {
+  left: 0;
+  bottom: 1;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.bottomH {
+  min-height: 10px;
+  width: 100%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.img-card {
+  width: 140px;
+  height: 230px;
+  margin: 10px;
+  background-image: url('https://i.pinimg.com/originals/77/6e/4c/776e4ccc173f81ca98a20738c74a4241.jpg');
+  box-shadow: 0 0 4px #012, inset 0 0 12px #dfe1e3;
+}
